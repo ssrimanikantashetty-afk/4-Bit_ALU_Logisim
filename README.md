@@ -19,7 +19,9 @@ The ALU performs multiple arithmetic and logical operations on two 4-bit inputs 
 
 ---
 
-## Supported Operations
+## Logical Operations
+
+![4-Bit ALU Circuit](images/Logical_operations.png)
 
 | Select (S1 S0) | Operation | Description |
 |----------------|-----------|-------------|
@@ -46,6 +48,8 @@ The ALU performs multiple arithmetic and logical operations on two 4-bit inputs 
 ---
 
 ##  Circuit Description
+![4-Bit ALU Circuit](images/4-Bit_ALU_CKT.png)
+
 
 1. Inputs **A** and **B** go to all arithmetic and logical blocks simultaneously.  
 2. Each block (Adder, Subtractor, Multiplier, AND/NOR/XOR/XNOR) computes its output.  
@@ -54,7 +58,7 @@ The ALU performs multiple arithmetic and logical operations on two 4-bit inputs 
 
 ---
 
-## 🔧 Software Used
+## Software Used
 - **Logisim Evolution** (recommended)
 - Digital logic building blocks
 
